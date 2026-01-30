@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background: #111;
+  color: white;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav a {
+  color: white;
+  margin-left: 15px;
+  text-decoration: none;
+}
+
+.products, .cart, .checkout {
+  padding: 30px;
+  text-align: center;
+}
+
+.card {
+  border: 1px solid #ddd;
+  width: 300px;
+  margin: auto;
+  padding: 15px;
+}
+
+.card img, .details img {
+  width: 100%;
+}
+
+.details {
+  display: flex;
+  gap: 30px;
+  padding: 30px;
+}
+
+.btn {
+  background: red;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+}
+
+input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+}
